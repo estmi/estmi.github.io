@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/estmi/Manuals2/',
+            'https://github.com/estmi/MarkdownServer/tree/master/',
         },
         blog: false /*{
           showReadingTime: true,
