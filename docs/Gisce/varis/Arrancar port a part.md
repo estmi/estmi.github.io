@@ -20,10 +20,10 @@ emiquel=1 OPENERP_MSGPACK=1 OPENERP_MSGPACK_PORT=12001 OPENERP_MSGPACK_HOST=0.0.
 ## PUDB
 
 ```python
-        import os
-        if os.environ.get('emiquel'):
-            import pudb
-            pu.db
+import os
+if os.environ.get('emiquel'):
+    import pudb
+    pu.db
 ```
 
 ## Run Scripts
