@@ -64,7 +64,7 @@ Per a poder fer la traducció utilitzarem un servei anomenat Transifex i aquests
 
 - Ara utilitzarem una comanda per a poder pujar el `.pot` al transifex: `tx push -r erp.$module_name$ -s`\
     ![bash_tx_push_execution]
-- Un cop pujat al transifex, entrarem a la web <https://trad.gisce.net>, farem login i anirem a resources. Alla veurem tots els moduls traduits, el que farem sera obrir el nostre modul i obrir la traduccio a fer, per exemple el catala en aquest cas. I alla ens surtiran tots els termes per a poder traduirlos.\
+- Un cop pujat al transifex, entrarem a la web [https://trad.gisce.net](https://trad.gisce.net), farem login i anirem a resources. Alla veurem tots els moduls traduits, el que farem sera obrir el nostre modul i obrir la traduccio a fer, per exemple el catala en aquest cas. I alla ens surtiran tots els termes per a poder traduirlos.\
     **Important marcar el check de reviewed!!**
 
 ## GET PO

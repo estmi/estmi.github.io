@@ -6,7 +6,7 @@
 ## Install Insomnia
 
 Utilitzar aplicatiu `Insomnia`, per instalar, anar a la seva web i instalar.\
-Web: <https://insomnia.rest/download>\
+Web: [https://insomnia.rest/download](https://insomnia.rest/download)\
 .deb: [Insomnia deb]
 
 ```console
