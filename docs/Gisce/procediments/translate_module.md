@@ -104,7 +104,7 @@ Es molt possible si es toquen missatges de errors que 'petin' els tests fets en 
 
 [Migracio]: /migrations/language_migration.md#language-migration
 [Instal·lar Idiomes]: ./install_language.md
-[Assistent d'exportar idiomes]: ./export_language/export_language.md#us-en-cas-dexportacio-pot-per-a-transifex
+[Assistent d'exportar idiomes]: ./export_language.md#us-en-cas-dexportacio-pot-per-a-transifex
 [rfc transifex]: https://rfc.gisce.net/t/traducciones-procedimiento-para-traducir-un-modulo/392
 [pycharm_pot_file_location]: /procediments_translate_module/pycharm_pot_file_location.png
 [bash_tx_push_execution]: /procediments_translate_module/bash_tx_push_execution.png
