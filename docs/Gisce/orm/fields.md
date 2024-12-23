@@ -19,6 +19,7 @@ vals = {
 
 ```
 
+```python
 # Values: (0, 0,  { fields })    create
 #         (1, ID, { fields })    modification
 #         (2, ID)                remove
@@ -26,3 +27,4 @@ vals = {
 #         (4, ID)                link
 #         (5, ID)                unlink all
 #         (6, ?, ids)            set a list of links
+```
