@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   staticDirectories: ['static', 'public'],
   // Set the production url of your site here
-  url: 'https://estmi.github.io',
+  url: 'https://estmi.github.io/MarkdownServer/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/MarkdownServer/',
