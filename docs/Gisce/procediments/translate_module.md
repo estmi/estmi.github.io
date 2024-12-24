@@ -102,9 +102,9 @@ Ara nomes falta provar-ho en local i despres a PRE. Son PRs lentes de aplicar ja
 
 Es molt possible si es toquen missatges de errors que 'petin' els tests fets en aquest modul, caldra revisar-ho.
 
-[Migracio]: /docs/migrations/language_migration.md#language-migration
-[Instal·lar Idiomes]: /docs/procediments/install_language.md
-[Assistent d'exportar idiomes]: /docs/procediments/export_language/export_language.md#us-en-cas-dexportacio-pot-per-a-transifex
+[Migracio]: /Gisce/migrations/language_migration.md#language-migration
+[Instal·lar Idiomes]: /Gisce/procediments/install_language.md
+[Assistent d'exportar idiomes]: /Gisce/procediments/export_language/export_language.md#us-en-cas-dexportacio-pot-per-a-transifex
 [rfc transifex]: https://rfc.gisce.net/t/traducciones-procedimiento-para-traducir-un-modulo/392
 [pycharm_pot_file_location]: /procediments_translate_module/pycharm_pot_file_location.png
 [bash_tx_push_execution]: /procediments_translate_module/bash_tx_push_execution.png
