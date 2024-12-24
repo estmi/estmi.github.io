@@ -42,9 +42,9 @@ Despres seleccionarem el descompte que ens afecta, i li restarem la part de iese
 
 ![bateria_virtual_discounts_list]
 
-![bateria_virtaul_discount_old_price]
+![bateria_virtual_discount_old_price]
 
-![bateria_virtaul_discount_new_price]
+![bateria_virtual_discount_new_price]
 
 [totals_factura]: /clients/modify_virtual_batery_line_in_fact/total_detail_invoiced.png
 [invoice_lines_old_price]: /clients/modify_virtual_batery_line_in_fact/invoice_lines_bat_virt_selected.png
@@ -56,5 +56,5 @@ Despres seleccionarem el descompte que ens afecta, i li restarem la part de iese
 [related_menu_extra_lines]: /clients/modify_virtual_batery_line_in_fact/related_menu_extra_lines.png
 [related_bateria_virtual]: /clients/modify_virtual_batery_line_in_fact/related_bateria_virtual.png
 [bateria_virtual_discounts_list]: /clients/modify_virtual_batery_line_in_fact/bateria_virtual_discounts_list.png
-[bateria_virtaul_discount_old_price]: /clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_old_price.png
-[bateria_virtaul_discount_new_price]: /clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_new_price.png
+[bateria_virtual_discount_old_price]: /clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_old_price.png
+[bateria_virtual_discount_new_price]: /clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_new_price.png
