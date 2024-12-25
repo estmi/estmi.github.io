@@ -24,4 +24,4 @@ Sota la responsabilitat de la pròpia empresa, es pot desactivar una variable de
 
 En cas de voler desactivar la configuració ens podeu enviar un SAC sol·licitant explícitament que es volen importar automàticament aquestes dades, sempre sota la responsabilitat del sol·licitant.
 
-[imatge_activacio_d1_error]: /clients/gestio_de_d1_amb_dades_que_no_pertanyen_a_la_companyia/images/error_activacio_d1.png
+[imatge_activacio_d1_error]: /gisce_data/clients/gestio_de_d1_amb_dades_que_no_pertanyen_a_la_companyia/error_activacio_d1.png

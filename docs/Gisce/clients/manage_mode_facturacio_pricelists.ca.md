@@ -24,8 +24,8 @@ Buscarem a la llista de llistes de preus la que no ens interessa, la seleccionar
 
 ![unlink_pricelist_from_mode_facturacio]
 
-[menu_modes_de_facturacio]: menu_modes_de_facturacio.png
-[add_pricelist_to_mode_facturacio]: add_pricelist_to_mode_facturacio.png
-[search_popup_select_pricelist]: search_popup_select_pricelist.png
-[check_if_pricelist_is_added_and_save]: check_if_pricelist_is_added_and_save.png
-[unlink_pricelist_from_mode_facturacio]: unlink_pricelist_from_mode_facturacio.png
+[menu_modes_de_facturacio]: /gisce_data/clients/manage_mode_facturacio_pricelists/menu_modes_de_facturacio.png
+[add_pricelist_to_mode_facturacio]: /gisce_data/clients/manage_mode_facturacio_pricelists/add_pricelist_to_mode_facturacio.png
+[search_popup_select_pricelist]: /gisce_data/clients/manage_mode_facturacio_pricelists/search_popup_select_pricelist.png
+[check_if_pricelist_is_added_and_save]: /gisce_data/clients/manage_mode_facturacio_pricelists/check_if_pricelist_is_added_and_save.png
+[unlink_pricelist_from_mode_facturacio]: /gisce_data/clients/manage_mode_facturacio_pricelists/unlink_pricelist_from_mode_facturacio.png
