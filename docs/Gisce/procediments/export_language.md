@@ -33,7 +33,7 @@ Un cop exportat ens aparaixera el seguent a la part inferior:
 
 ![wizard_export_language_language_exported_part_inf]
 
-[localitzacio_assistent_menu]: /procediments_export_language/localitzacio_assistent_menu.png
-[wizard_export_language]: /procediments_export_language/wizard_export_language.png
-[wizard_export_language_informed]: /procediments_export_language/wizard_export_language_informed.png
-[wizard_export_language_language_exported_part_inf]: /procediments_export_language/wizard_export_language_language_exported_part_inf.png
+[localitzacio_assistent_menu]: /gisce_data/procediments/export_language/localitzacio_assistent_menu.png
+[wizard_export_language]: /gisce_data/procediments/export_language/wizard_export_language.png
+[wizard_export_language_informed]: /gisce_data/procediments/export_language/wizard_export_language_informed.png
+[wizard_export_language_language_exported_part_inf]: /gisce_data/procediments/export_language/wizard_export_language_language_exported_part_inf.png

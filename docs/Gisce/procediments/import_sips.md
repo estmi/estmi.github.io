@@ -98,4 +98,4 @@ c = Client(server, db, user=user, password=password)
 c.GiscedataCnmcComerSipsImporter.process_dir(folder_path)
 ```
 
-[zips_en_carpeta]:/import_sips/image.png
+[zips_en_carpeta]: /gisce_data/procediments/import_sips/image.png

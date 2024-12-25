@@ -58,12 +58,12 @@ Un cop haguem especificat un autoconsum, l'assistent verificara que no sigui l'a
 
 ![wizard_set_autoconsum_baixa]
 
-[llistat_assistents]: ../add_cups_to_autoconsum/llistat_assistent_cups.png
-[wizard_set_autoconsum]: ../add_cups_to_autoconsum/wizard_set_autoconsum.png
-[wizard_set_autoconsum_alta]: ../add_cups_to_autoconsum/wizard_set_autoconsum_alta.png
-[wizard_set_autoconsum_baixa]: ../add_cups_to_autoconsum/wizard_set_autoconsum_baixa.png
-[menu_wizard_carrega_ccrh]: ../add_cups_to_autoconsum/menu_wizard_carrega_ccrh.png
-[wizard_carrega_ccrh]: ../add_cups_to_autoconsum/wizard_carrega_ccrh.png
-[llistat_assistents_autoconsum]: ../add_cups_to_autoconsum/llistat_assistents_autoconsum.png
-[wizard_generar_cas_atr_autocon]: ../add_cups_to_autoconsum/wizard_generar_cas_atr_autocon.png
-[wizard_generar_cas_atr_autocon_d1]: ../add_cups_to_autoconsum/wizard_generar_cas_atr_autocon_d1.png
+[llistat_assistents]: /gisce_data/erp/add_cups_to_autoconsum/llistat_assistent_cups.png
+[wizard_set_autoconsum]: /gisce_data/erp/add_cups_to_autoconsum/wizard_set_autoconsum.png
+[wizard_set_autoconsum_alta]: /gisce_data/erp/add_cups_to_autoconsum/wizard_set_autoconsum_alta.png
+[wizard_set_autoconsum_baixa]: /gisce_data/erp/add_cups_to_autoconsum/wizard_set_autoconsum_baixa.png
+[menu_wizard_carrega_ccrh]: /gisce_data/erp/add_cups_to_autoconsum/menu_wizard_carrega_ccrh.png
+[wizard_carrega_ccrh]: /gisce_data/erp/add_cups_to_autoconsum/wizard_carrega_ccrh.png
+[llistat_assistents_autoconsum]: /gisce_data/erp/add_cups_to_autoconsum/llistat_assistents_autoconsum.png
+[wizard_generar_cas_atr_autocon]: /gisce_data/erp/add_cups_to_autoconsum/wizard_generar_cas_atr_autocon.png
+[wizard_generar_cas_atr_autocon_d1]: /gisce_data/erp/add_cups_to_autoconsum/wizard_generar_cas_atr_autocon_d1.png

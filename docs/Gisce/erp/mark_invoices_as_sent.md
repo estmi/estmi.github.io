@@ -40,4 +40,4 @@ abenergia=*# COMMIT;
 COMMIT
 ```
 
-[get_ids]: ../mark_invoice_as_sent/get_ids.png
+[get_ids]: /gisce_data/erp/mark_invoice_as_sent/get_ids.png

@@ -67,10 +67,10 @@ Con el plazo de pago configurado obtendríamos este resultado:
 - Diez días después hay que pagar el 50% restante
 - Y el siguiente día 1 del mes, después de 5 días del vencimiento anterior, el resto de la factura.
 
-[menu_plazos_de_pago]: /plazos_de_pago/menu_plazos_de_pago.png
-[plazo_de_pago_nuevo]: /plazos_de_pago/plazo_de_pago_nuevo.png
-[vencimiento_nuevo]: /plazos_de_pago/vencimiento_nuevo.png
-[plazo_50e_15_dias]: /plazos_de_pago/plazo_50e_15_dias.png
-[plazo_50p_10_dias]: /plazos_de_pago/plazo_50p_10_dias.png
-[plazo_total_dia_1_5_dias]: /plazos_de_pago/plazo_total_dia_1_5_dias.png
-[plazo_de_pago_configurado]: /plazos_de_pago/plazo_de_pago_configurado.png
+[menu_plazos_de_pago]: /gisce_data/erp/plazos_de_pago/menu_plazos_de_pago.png
+[plazo_de_pago_nuevo]: /gisce_data/erp/plazos_de_pago/plazo_de_pago_nuevo.png
+[vencimiento_nuevo]: /gisce_data/erp/plazos_de_pago/vencimiento_nuevo.png
+[plazo_50e_15_dias]: /gisce_data/erp/plazos_de_pago/plazo_50e_15_dias.png
+[plazo_50p_10_dias]: /gisce_data/erp/plazos_de_pago/plazo_50p_10_dias.png
+[plazo_total_dia_1_5_dias]: /gisce_data/erp/plazos_de_pago/plazo_total_dia_1_5_dias.png
+[plazo_de_pago_configurado]: /gisce_data/erp/plazos_de_pago/plazo_de_pago_configurado.png

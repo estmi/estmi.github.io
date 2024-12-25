@@ -96,12 +96,12 @@ Una vez hemos guardado, abriremos el lead y rellenaremos todo el lead con la inf
 
 ## Poliza
 
-[tree_leads]: /new_contract_procedure/tree_leads.png
-[form_leads_header]:/new_contract_procedure/form_leads_header.png
-[form_leads_firma]:/new_contract_procedure/firma.png
-[form_leads_general]:/new_contract_procedure/general.png
-[form_leads_sips]:/new_contract_procedure/sips.png
-[form_leads_sobre_cliente]:/new_contract_procedure/sobre_cliente.png
-[form_leads_sobre_contrato]:/new_contract_procedure/sobre_contrato.png
-[form_leads_sobre_pago]:/new_contract_procedure/sobre_pago.png
-[form_leads_sobre_punto_suministro]:/new_contract_procedure/sobre_punto_suministro.png
+[tree_leads]: /gisce_data/procediments/new_contract_procedure/tree_leads.png
+[form_leads_header]:/gisce_data/procediments/new_contract_procedure/form_leads_header.png
+[form_leads_firma]:/gisce_data/procediments/new_contract_procedure/firma.png
+[form_leads_general]:/gisce_data/procediments/new_contract_procedure/general.png
+[form_leads_sips]:/gisce_data/procediments/new_contract_procedure/sips.png
+[form_leads_sobre_cliente]:/gisce_data/procediments/new_contract_procedure/sobre_cliente.png
+[form_leads_sobre_contrato]:/gisce_data/procediments/new_contract_procedure/sobre_contrato.png
+[form_leads_sobre_pago]:/gisce_data/procediments/new_contract_procedure/sobre_pago.png
+[form_leads_sobre_punto_suministro]:/gisce_data/procediments/new_contract_procedure/sobre_punto_suministro.png

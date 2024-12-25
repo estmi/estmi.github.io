@@ -38,11 +38,9 @@ Aqui li donarem el fitxer de configuracio de l'api de quixotic: [Insomnia_quixot
 Un cop sigui importat veurem el seguent:\
 ![Insomnia_lucera_quixotic_collection_imported]
 
-<!--
-[Insomnia_deb]: /public/lucera_quixotic/Insomnia.Core-9.3.2.deb
-[Insomnia_quixotic_config]: /public/lucera_quixotic/config_api_quixotic_insomnia.json
--->
-[Insomnia_import]: /lucera_quixotic/insomnia_import.png
-[Insomnia_import_file]:/lucera_quixotic/Insomnia_import_file.png
-[Insomnia_import_file_import]: /lucera_quixotic/Insomnia_import_file_import.png
-[Insomnia_lucera_quixotic_collection_imported]: /lucera_quixotic/Insomnia_lucera_quixotic_collection_imported.png
+[Insomnia_deb]: /gisce_data/lucera/quixotic/insomnia_Core_9_3_2.deb
+[Insomnia_quixotic_config]: quixotic_config.md
+[Insomnia_import]: /gisce_data/lucera/quixotic/insomnia_import.png
+[Insomnia_import_file]:/gisce_data/lucera/quixotic/Insomnia_import_file.png
+[Insomnia_import_file_import]: /gisce_data/lucera/quixotic/Insomnia_import_file_import.png
+[Insomnia_lucera_quixotic_collection_imported]: /gisce_data/lucera/quixotic/Insomnia_lucera_quixotic_collection_imported.png

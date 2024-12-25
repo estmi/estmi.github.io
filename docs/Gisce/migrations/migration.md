@@ -51,8 +51,8 @@ if config.updating_all:
 ## Actualitzar ondelete de un one2many
 
 ```python
-        def update_contraint(cursor, constraint_name, ondelete):
-            sql = """SELECT confdeltype, conname, cl1.relname as _table, att1.attname as k, cl2.relname as ref, att2.attname as id FROM pg_constraint as con, pg_class as cl1, pg_class as cl2,
+def update_contraint(cursor, constraint_name, ondelete):
+    sql = """SELECT confdeltype, conname, cl1.relname as _table, att1.attname as k, cl2.relname as ref, att2.attname as id FROM pg_constraint as con, pg_class as cl1, pg_class as cl2,
     pg_attribute as att1, pg_attribute as att2
     WHERE con.conrelid = cl1.oid
     AND con.confrelid = cl2.oid
@@ -63,9 +63,8 @@ if config.updating_all:
     AND con.confkey[1] = att2.attnum
     AND att2.attrelid = cl2.oid
     AND con.contype = 'f' and conname = '{}'""".format(constraint_name)
-            cursor.execute(sql)
-            res = cursor.dictfetchall()[0]
-
-            cursor.execute('ALTER TABLE "' + res['_table'] + '" DROP CONSTRAINT "' + res['conname'] + '"')
-            cursor.execute('ALTER TABLE "' + res['_table'] + '" ADD FOREIGN KEY ("' + res['k'] + '") REFERENCES "' + res['ref'] + '" ON DELETE ' + ondelete)
+    cursor.execute(sql)
+    res = cursor.dictfetchall()[0]
+    cursor.execute('ALTER TABLE "' + res['_table'] + '" DROP CONSTRAINT "' + res['conname'] + '"')
+    cursor.execute('ALTER TABLE "' + res['_table'] + '" ADD FOREIGN KEY ("' + res['k'] + '") REFERENCES "' + res['ref'] + '" ON DELETE ' + ondelete)
 ```

@@ -10,6 +10,6 @@ Ens apareixera un llistat a pantalla completa de tots els accessos directes, on 
 
 ![shortcuts_list]
 
-[welcome_page]: /delete_favs_items/welcome_page.png
-[shortcuts_selector]: /delete_favs_items/shortcuts_selector.png
-[shortcuts_list]: /delete_favs_items/shortcuts_list.png
+[welcome_page]: /gisce_data/erp/delete_favs_items/welcome_page.png
+[shortcuts_selector]: /gisce_data/erp/delete_favs_items/shortcuts_selector.png
+[shortcuts_list]: /gisce_data/erp/delete_favs_items/shortcuts_list.png
