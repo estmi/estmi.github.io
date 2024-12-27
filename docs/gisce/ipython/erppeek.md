@@ -1,4 +1,4 @@
-# RestApiClient
+# ErpPeek
 
 - [Install](#install)
 - [Import](#import)
@@ -14,21 +14,18 @@ pip install pygisceclient
 ## Import
 
 ```python
-from gisce import RestApiClient as Client
+from erppeek import Client
 ```
 
 ## Create Connection
 
 ```python
-url = 'https://powerp-api.energiacolectiva.pro'
-user = '***user***'
-password = '***pwd***'
-c = Client(url, user=user, password=password)
+c = Client('http://localhost:18069', 'enercol', '***user***', '***pwd***')
 ```
 
 ## Usage
 
-Es pot utilitzar igual que un [erppeek].
+Es pot utilitzar igual que un [RestApiClient]. Tots els metodes s'executen igual que l'erp, pero sense escriure cursor i uid, erppeek, ja ho infereix.
 
 ```python
 # Crida a API Lucera
@@ -39,4 +36,4 @@ pol_obj = c.model('giscedata.polissa')
 ids = pol_obj.search([])
 ```
 
-[erppeek]:erppeek.md
+[RestApiClient]: /gisce/ipython/restapiclient.md

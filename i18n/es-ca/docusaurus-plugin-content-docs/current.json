@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Manuals of Gisce": {
+    "message": "Manuals of Gisce",
+    "description": "The label for category Manuals of Gisce in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.clients": {
+    "message": "clients",
+    "description": "The label for category clients in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.code": {
+    "message": "code",
+    "description": "The label for category code in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.erp": {
+    "message": "erp",
+    "description": "The label for category erp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.info": {
+    "message": "info",
+    "description": "The label for category info in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ipython": {
+    "message": "ipython",
+    "description": "The label for category ipython in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.lucera": {
+    "message": "lucera",
+    "description": "The label for category lucera in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Quixotic Lucera": {
+    "message": "Quixotic Lucera",
+    "description": "The label for category Quixotic Lucera in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.migrations": {
+    "message": "migrations",
+    "description": "The label for category migrations in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Utilitzacio basica de ORM": {
+    "message": "Utilitzacio basica de ORM",
+    "description": "The label for category Utilitzacio basica de ORM in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.procediments": {
+    "message": "procediments",
+    "description": "The label for category procediments in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.varis": {
+    "message": "varis",
+    "description": "The label for category varis in sidebar tutorialSidebar"
+  }
+}
