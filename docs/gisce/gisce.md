@@ -1,3 +1,3 @@
-# Manuals of Gisce
+# Gisce
 
 by Esteve Miquel
