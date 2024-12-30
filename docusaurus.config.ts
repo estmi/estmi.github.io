@@ -39,8 +39,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/estmi/MarkdownServer/tree/master/',
+     //     editUrl:
+     //       'https://github.com/estmi/MarkdownServer/tree/master/',
         },
         blog: false /*{
           showReadingTime: true,
@@ -67,6 +67,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+	    sidebar: {
+	        hideable: true,
+		autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: 'My Site',
       logo: {
