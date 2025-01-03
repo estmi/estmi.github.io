@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'estmi', // Usually your GitHub org/user name.
-  projectName: 'MarkdownServer', // Usually your repo name.
+  projectName: 'estmi.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,8 +27,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'es',
-    locales: ['en','es', 'ca'],
+    defaultLocale: 'ca',
+    locales: ['ca'],
   },
 
   presets: [
@@ -88,14 +88,10 @@ const config: Config = {
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/estmi/MarkdownServer',
+          href: 'https://github.com/estmi/estmi.github.io',
           label: 'GitHub',
           position: 'right',
         },
-	{
-		type: 'localeDropdown',
-		position: 'left'
-	}
       ],
     },
     footer: {
