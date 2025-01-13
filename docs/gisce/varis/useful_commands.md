@@ -1,9 +1,10 @@
-# Arrancar port a part
+# Comandes utils
 
 - [Erp GTK](#erp-gtk)
 - [Webclient](#webclient)
 - [PUDB](#pudb)
 - [Run Scripts](#run-scripts)
+- [Harakiri](#harakiri)
 
 ## Erp GTK
 
@@ -30,4 +31,10 @@ if os.environ.get('emiquel'):
 
 ```python
 python /home/erp/src/erp/server/bin/openerp-server.py --no-netrpc --price_accuracy=6 --config=/home/erp/conf/$conf_file$.conf --port 12000 --interface 0.0.0.0 --run-scripts=$modul$ --run-scripts-interactive
+```
+
+## Harakiri
+
+```bash
+oopgrade --config=/home/erp/conf/centelles-comer-erp.conf pubsub --channel all harakiri
 ```
