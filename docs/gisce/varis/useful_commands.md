@@ -36,5 +36,5 @@ python /home/erp/src/erp/server/bin/openerp-server.py --no-netrpc --price_accura
 ## Harakiri
 
 ```bash
-oopgrade --config=/home/erp/conf/centelles-comer-erp.conf pubsub --channel all harakiri
+oopgrade --config=/home/erp/conf/$conf_file$.conf pubsub --channel all harakiri
 ```
