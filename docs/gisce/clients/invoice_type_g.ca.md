@@ -1,6 +1,6 @@
 # Regularitzadores
 
-## Como es factura
+## Com es factura
 
 ### Opció 1
 
