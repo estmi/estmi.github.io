@@ -1,4 +1,4 @@
-# Regularizadoras
+# Regularizadores
 
 ## Como se factura
 
