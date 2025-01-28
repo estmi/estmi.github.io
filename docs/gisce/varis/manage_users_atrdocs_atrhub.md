@@ -18,6 +18,6 @@ pwgen 8
 htpasswd -b /etc/nginx/security/}{htpasswd file} {REE Code} {passwd}
 ```
 
-Enter to url `{docs_atr_url}/docs.hola.txt` to test user, use {REE_code} as user and {passwd}
+Enter to url `{docs_atr_url}/docs.hola.txt` to test user, use \{REE_code\} as user and \{passwd\}
 
 Check in `/etc/nginx/security/.atrdocs.htpasswd` that user exists.
