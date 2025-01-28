@@ -1,0 +1,7 @@
+Renovacio de preus de la llista actual: 
+Preus de renovacio: S'actualitza cap a aquesta llista de preus.
+Data Proxima renovacio: S'ha de facturar com a minim aquesta data, un cop es facturi aquesta data es fara el canvi de preus.
+
+Wizard desde pricelists: Asignar dies i mesos restants per renovacio.
+
+Ens permet pasar la configuracio de renovacio de la pricelist a tots els contractes que no estiguin ja informats. La data renovacio es calcula desde la data de la modcon.

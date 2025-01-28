@@ -38,3 +38,7 @@ python /home/erp/src/erp/server/bin/openerp-server.py --no-netrpc --price_accura
 ```bash
 oopgrade --config=/home/erp/conf/$conf_file$.conf pubsub --channel all harakiri
 ```
+
+# Open Case ERP-TI
+
+[http://alpha.erp-ti.cloudvpn/openResource?model=crm.case&res_id=XXXXXX](http://alpha.erp-ti.cloudvpn/openResource?model=crm.case&res_id=XXXXXX)

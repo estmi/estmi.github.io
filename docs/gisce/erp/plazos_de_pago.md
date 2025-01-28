@@ -1,14 +1,5 @@
 # Creación de Plazos de Pago
 
-- [Donde encontrar el menú](#donde-encontrar-el-menú)
-- [Creando el Plazo de pago](#creando-el-plazo-de-pago)
-- [Añadiendo vencimientos](#añadiendo-vencimientos)
-- [Ejemplos](#ejemplos)
-  - [Vencimiento a 15 días, 50 euros](#vencimiento-a-15-días-50-euros)
-  - [Vencimiento a 10 días, 50 %](#vencimiento-a-10-días-50-)
-  - [Vencimiento a 1 del mes después de 5 días, total factura](#vencimiento-a-1-del-mes-después-de-5-días-total-factura)
-  - [Resultado del Ejemplo](#resultado-del-ejemplo)
-
 ## Donde encontrar el menú
 
 `Contabilidad y finanzas` :arrow_right: `Configuracion` :arrow_right: `Plazos de pago`:
@@ -33,13 +24,22 @@ Aquí rellenaremos los campos:
 
 - `Nombre linea`: define un nombre identificativo
 - `Secuencia`: define en que orden saldrán los vencimientos
-- `Valor`: define como se calculara el importe del vencimiento utilizando el `Valor importe`:
-  - `Porcentaje`: Se imputará el resultado de multiplicar el valor de la factura con `Valor Importe`. 1 en `Valor Importe` equivale al 100% i 0.25 equivale al 25%.
-  - `Saldo pendiente`: Se imputará el total de la factura.
-  - `Importe fijo`: Se imputará el valor establecido en el `Valor Importe`.
-- `Valor importe`: El valor será un importe en el caso de `Importe fijo` o un valor entre 1 y 0 en el caso de `Porcentaje` siendo 1 el 100% y un número de en medio como 0.65 el 65%.
-- `Numero de dias`: Valor de días al que se le sumara a la fecha de la factura.
-- `Dia del mes`: Día del mes que se asignara posterior a la fecha de número de días. Si se deja a 0 se utilizará el día que se calcule en `Numero de dias`.
+
+- `Valor`: En este apartado podemos escoger una de las siguientes opciones (`Porcentaje`, `Saldo pendiente` e `Importe fijo`), para definir como se calculara el importe del vencimiento
+  
+- `Valor importe`: En este campo el valor se tratará diferente según lo que se haya seleccionado en el campo `valor`.
+  - Si se ha seleccionado la opción `Porcentaje` el valor será entre 1 y 0 siendo 1 el 100%
+  - Si se ha seleccionado la opción `Saldo pendiente` el valor será el total de la factura
+  - Si se ha seleccionado la opción `Importe fijo` el valor será un importe
+
+- `Numero de dias`: En este campo se tiene que informar de los dias que se sumaran.
+
+   > :warning: La fecha resultante se verá afectada según como se configure el campo `Dia del mes`  :warning:
+
+- `Dia del mes`: En este campo se tiene que configurar los días que se sumaran  al cálculo realizado en el campo `Numero de dias`
+  - Si se informa de un `numero negativo` el número de días empezará a partir del último día del mes actual 
+  - Si se informa de un valor positivo se estará informando del próximo día del mes
+  - Si se informa `0` se estará indicando que este campo no tiene validez
 
 ## Ejemplos
 
@@ -55,7 +55,7 @@ Aquí rellenaremos los campos:
 
 ![plazo_total_dia_1_5_dias]
 
-Será el próximo día 1 del mes, después de 5 días de la fecha de cálculo.
+Será el próximo día 1 del mes si el cálculo de la fecha no supera lo configurado en el campo
 
 ### Resultado del Ejemplo
 

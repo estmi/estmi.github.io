@@ -24,10 +24,19 @@ WARNING: No implicit session: Logical Sessions are only supported on server vers
 Implicit session: dummy session
 MongoDB server version: 3.2.22
 WARNING: shell and server versions do not match
+replicaops:PRIMARY> show dbs
+db1      2.030GB
+db2    324.000GB
+db3     60.002GB
+db4    180.000GB
 replicaops:PRIMARY> use {mongo-db}
 switched to db {mongo-db}
+replicaops:PRIMARY> db.cnmc_sips_consums.count()
+99999
 replicaops:PRIMARY> db.cnmc_sips_consums.deleteMany({})
 { "acknowledged" : true, "deletedCount" : 99999 }
+replicaops:PRIMARY> db.cnmc_sips_consums_gas.count()
+99999
 replicaops:PRIMARY> db.cnmc_sips_consums_gas.deleteMany({})
 { "acknowledged" : true, "deletedCount" : 99999 }
 ```
