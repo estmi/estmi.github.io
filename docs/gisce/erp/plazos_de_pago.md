@@ -37,7 +37,7 @@ Aquí rellenaremos los campos:
    > :warning: La fecha resultante se verá afectada según como se configure el campo `Dia del mes`  :warning:
 
 - `Dia del mes`: En este campo se tiene que configurar los días que se sumaran  al cálculo realizado en el campo `Numero de dias`
-  - Si se informa de un `numero negativo` el número de días empezará a partir del último día del mes actual 
+  - Si se informa de un `numero negativo` el número de días empezará a partir del último día del mes actual
   - Si se informa de un valor positivo se estará informando del próximo día del mes
   - Si se informa `0` se estará indicando que este campo no tiene validez
 
