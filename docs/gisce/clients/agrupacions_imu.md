@@ -12,6 +12,10 @@ Ara crearem la nova entrada:
 
 ## Assignar agrupacio de IMU
 
+:::info Disponibilitat
+Aixo nomes esta disponible a partir de la versio v24.9
+:::
+
 Entrarem al seguent menu per veure els municipis:
 
 ![menu_entry_for_cities]
