@@ -106,8 +106,8 @@ Es molt possible si es toquen missatges de errors que 'petin' els tests fets en 
 [Instal·lar Idiomes]: /gisce/procediments/install_language.md
 [Assistent d'exportar idiomes]: /gisce/procediments/export_language.md#us-en-cas-dexportacio-pot-per-a-transifex
 [rfc transifex]: https://rfc.gisce.net/t/traducciones-procedimiento-para-traducir-un-modulo/392
-[pycharm_pot_file_location]: /gisce_data/procediments/translate_module/pycharm_pot_file_location.png
-[bash_tx_push_execution]: /gisce_data/procediments/translate_module/bash_tx_push_execution.png
-[transifex_module_view]: /gisce_data/procediments/translate_module/transifex_module_view.png
-[transifex_module_view_language]: /gisce_data/procediments/translate_module/transifex_module_view_language.png
-[pycharm_po_file_location]: /gisce_data/procediments/translate_module/pycharm_po_file_location.png
+[pycharm_pot_file_location]: /gisce/procediments/translate_module/pycharm_pot_file_location.png
+[bash_tx_push_execution]: /gisce/procediments/translate_module/bash_tx_push_execution.png
+[transifex_module_view]: /gisce/procediments/translate_module/transifex_module_view.png
+[transifex_module_view_language]: /gisce/procediments/translate_module/transifex_module_view_language.png
+[pycharm_po_file_location]: /gisce/procediments/translate_module/pycharm_po_file_location.png

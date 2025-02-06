@@ -164,14 +164,14 @@ Desde este apartado podremos ver el estado de la firma:
 - Status Firma: Estado actual de la firma
 - Fecha Firma
 
-[tree_leads]: /gisce_data/procediments/new_contract_procedure/tree_leads.png
-[form_leads_header]: /gisce_data/procediments/new_contract_procedure/form_leads_header.png
-[form_leads_firma]: /gisce_data/procediments/new_contract_procedure/firma.png
-<!-- [form_leads_general]: /gisce_data/procediments/new_contract_procedure/general.png -->
-[form_leads_sips]: /gisce_data/procediments/new_contract_procedure/sips.png
-[form_leads_sobre_cliente]: /gisce_data/procediments/new_contract_procedure/sobre_cliente.png
-[form_leads_sobre_contrato]: /gisce_data/procediments/new_contract_procedure/sobre_contrato.png
-[form_leads_sobre_pago]: /gisce_data/procediments/new_contract_procedure/sobre_pago.png
-[form_leads_sobre_punto_suministro]: /gisce_data/procediments/new_contract_procedure/sobre_punto_suministro.png
-[warning_cups_not_specified]: /gisce_data/procediments/new_contract_procedure/warning_cups_not_specified.png
-[sobre_el_punto_de_subimistro_direccion]: /gisce_data/procediments/new_contract_procedure/sobre_el_punto_de_subimistro_direccion.png
+[tree_leads]: /gisce/procediments/new_contract_procedure/tree_leads.png
+[form_leads_header]: /gisce/procediments/new_contract_procedure/form_leads_header.png
+[form_leads_firma]: /gisce/procediments/new_contract_procedure/firma.png
+<!-- [form_leads_general]: /gisce/procediments/new_contract_procedure/general.png -->
+[form_leads_sips]: /gisce/procediments/new_contract_procedure/sips.png
+[form_leads_sobre_cliente]: /gisce/procediments/new_contract_procedure/sobre_cliente.png
+[form_leads_sobre_contrato]: /gisce/procediments/new_contract_procedure/sobre_contrato.png
+[form_leads_sobre_pago]: /gisce/procediments/new_contract_procedure/sobre_pago.png
+[form_leads_sobre_punto_suministro]: /gisce/procediments/new_contract_procedure/sobre_punto_suministro.png
+[warning_cups_not_specified]: /gisce/procediments/new_contract_procedure/warning_cups_not_specified.png
+[sobre_el_punto_de_subimistro_direccion]: /gisce/procediments/new_contract_procedure/sobre_el_punto_de_subimistro_direccion.png

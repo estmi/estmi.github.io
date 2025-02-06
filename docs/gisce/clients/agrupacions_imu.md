@@ -30,7 +30,7 @@ En un futur proxim hi haura un assistent per poder definir l'agrupacio de cop a 
 
 Per el moment s'ha de definir municipi a municipi.
 
-[menu_entry_for_imu_grouping]: /gisce_data/clients/agrupacions_imu/menu_entry_for_imu_grouping.png
-[new_imu_grouping]: /gisce_data/clients/agrupacions_imu/new_imu_grouping.png
-[assign_imu_groupiong_to_city]: /gisce_data/clients/agrupacions_imu/assign_imu_groupiong_to_city.png
-[menu_entry_for_cities]: /gisce_data/clients/agrupacions_imu/menu_entry_for_cities.png
+[menu_entry_for_imu_grouping]: /gisce/clients/agrupacions_imu/menu_entry_for_imu_grouping.png
+[new_imu_grouping]: /gisce/clients/agrupacions_imu/new_imu_grouping.png
+[assign_imu_groupiong_to_city]: /gisce/clients/agrupacions_imu/assign_imu_groupiong_to_city.png
+[menu_entry_for_cities]: /gisce/clients/agrupacions_imu/menu_entry_for_cities.png

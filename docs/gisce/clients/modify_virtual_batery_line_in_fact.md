@@ -46,15 +46,15 @@ Despres seleccionarem el descompte que ens afecta, i li restarem la part de iese
 
 ![bateria_virtual_discount_new_price]
 
-[totals_factura]: /gisce_data/clients/modify_virtual_batery_line_in_fact/total_detail_invoiced.png
-[invoice_lines_old_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/invoice_lines_bat_virt_selected.png
-[invoice_line_discount_old_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/bat_virt_invoice_line_form_old_price.png
-[invoice_line_discount_new_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/bat_virt_invoice_line_form_new_price.png
-[total_factura_nou]: /gisce_data/clients/modify_virtual_batery_line_in_fact/total_detail_invoiced_new_price.png
-[extra_line_old_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/extra_line_old_price.png
-[extra_line_new_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/extra_line_new_price.png
-[related_menu_extra_lines]: /gisce_data/clients/modify_virtual_batery_line_in_fact/related_menu_extra_lines.png
-[related_bateria_virtual]: /gisce_data/clients/modify_virtual_batery_line_in_fact/related_bateria_virtual.png
-[bateria_virtual_discounts_list]: /gisce_data/clients/modify_virtual_batery_line_in_fact/bateria_virtual_discounts_list.png
-[bateria_virtual_discount_old_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_old_price.png
-[bateria_virtual_discount_new_price]: /gisce_data/clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_new_price.png
+[totals_factura]: /gisce/clients/modify_virtual_batery_line_in_fact/total_detail_invoiced.png
+[invoice_lines_old_price]: /gisce/clients/modify_virtual_batery_line_in_fact/invoice_lines_bat_virt_selected.png
+[invoice_line_discount_old_price]: /gisce/clients/modify_virtual_batery_line_in_fact/bat_virt_invoice_line_form_old_price.png
+[invoice_line_discount_new_price]: /gisce/clients/modify_virtual_batery_line_in_fact/bat_virt_invoice_line_form_new_price.png
+[total_factura_nou]: /gisce/clients/modify_virtual_batery_line_in_fact/total_detail_invoiced_new_price.png
+[extra_line_old_price]: /gisce/clients/modify_virtual_batery_line_in_fact/extra_line_old_price.png
+[extra_line_new_price]: /gisce/clients/modify_virtual_batery_line_in_fact/extra_line_new_price.png
+[related_menu_extra_lines]: /gisce/clients/modify_virtual_batery_line_in_fact/related_menu_extra_lines.png
+[related_bateria_virtual]: /gisce/clients/modify_virtual_batery_line_in_fact/related_bateria_virtual.png
+[bateria_virtual_discounts_list]: /gisce/clients/modify_virtual_batery_line_in_fact/bateria_virtual_discounts_list.png
+[bateria_virtual_discount_old_price]: /gisce/clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_old_price.png
+[bateria_virtual_discount_new_price]: /gisce/clients/modify_virtual_batery_line_in_fact/bateria_virtaul_discount_new_price.png

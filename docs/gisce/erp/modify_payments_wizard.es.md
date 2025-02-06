@@ -52,14 +52,14 @@ Por ejemplo hemos pasado del dia 23/07/2024 a 10/07/2024:
 
 #### Modificar diario
 
-[wizard_selector]:/gisce_data/erp/modify_payments_wizard/wizards_selector.png
-[wizard_opening_view]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_init_view.png
-[wizard_opening_view_magnifying_glass]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_init_view_emphasis_on_magnifying_glass.png
-[wizard_search_for_payment]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_search_for_payment.png
-[wizard_modify_payments_base_view_payment_selected]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_init_view_payment_selected.png
-[wizard_modify_payments_mid_view_buttons]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_mid_view_buttons.png
-[wizard_modify_payments_undo_view]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_undo_state_view.png
-[wizard_modify_payments_done_view]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_done_state_view.png
-[wizard_modify_payments_date_view]:/gisce_data/erp/modify_payments_wizard/wizard_modify_payments_date_state_view.png
-[payment_line_date_original]:/gisce_data/erp/modify_payments_wizard/payment_line_date_230724.png
-[payment_line_date_modified]:/gisce_data/erp/modify_payments_wizard/payment_line_date_100724.png
+[wizard_selector]:/gisce/erp/modify_payments_wizard/wizards_selector.png
+[wizard_opening_view]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_init_view.png
+[wizard_opening_view_magnifying_glass]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_init_view_emphasis_on_magnifying_glass.png
+[wizard_search_for_payment]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_search_for_payment.png
+[wizard_modify_payments_base_view_payment_selected]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_init_view_payment_selected.png
+[wizard_modify_payments_mid_view_buttons]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_mid_view_buttons.png
+[wizard_modify_payments_undo_view]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_undo_state_view.png
+[wizard_modify_payments_done_view]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_done_state_view.png
+[wizard_modify_payments_date_view]:/gisce/erp/modify_payments_wizard/wizard_modify_payments_date_state_view.png
+[payment_line_date_original]:/gisce/erp/modify_payments_wizard/payment_line_date_230724.png
+[payment_line_date_modified]:/gisce/erp/modify_payments_wizard/payment_line_date_100724.png

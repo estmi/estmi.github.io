@@ -18,7 +18,7 @@ En caso de no tenerlo firmado aun, puedes desmarcar el check de `Firmado`
 ![mandate_signed]
 :::
 
-[related_menu_mandates]: /gisce_data/clients/create_mandate/related_menu_mandates.png
-[new_mandate]: /gisce_data/clients/create_mandate/new_mandate.png
-[mandate_form_new]: /gisce_data/clients/create_mandate/mandate_form_new.png
-[mandate_signed]: /gisce_data/clients/create_mandate/mandate_signed.png
+[related_menu_mandates]: /gisce/clients/create_mandate/related_menu_mandates.png
+[new_mandate]: /gisce/clients/create_mandate/new_mandate.png
+[mandate_form_new]: /gisce/clients/create_mandate/mandate_form_new.png
+[mandate_signed]: /gisce/clients/create_mandate/mandate_signed.png

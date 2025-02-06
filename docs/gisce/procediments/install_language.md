@@ -29,7 +29,7 @@ Al cap d'uns segons ens informara que ja ha pogut instalar l'idioma seleccionat:
 
 ![wizard_load_official_translation_installation_successful]
 
-[localitzacio_assistent_menu]: /gisce_data/procediments/install_language/localitzacio_assistent_menu.png
-[wizard_load_official_translation]: /gisce_data/procediments/install_language/wizard_load_official_translation.png
-[wizard_load_official_translation_selection]: /gisce_data/procediments/install_language/wizard_load_official_translation_selection.png
-[wizard_load_official_translation_installation_successful]: /gisce_data/procediments/install_language/wizard_load_official_translation_installation_successful.png
+[localitzacio_assistent_menu]: /gisce/procediments/install_language/localitzacio_assistent_menu.png
+[wizard_load_official_translation]: /gisce/procediments/install_language/wizard_load_official_translation.png
+[wizard_load_official_translation_selection]: /gisce/procediments/install_language/wizard_load_official_translation_selection.png
+[wizard_load_official_translation_installation_successful]: /gisce/procediments/install_language/wizard_load_official_translation_installation_successful.png
