@@ -1,16 +1,18 @@
-# Numeracio de CUPS
+# Numeracion de CUPS
 
-## Configuracio
-
-Per definir com obtindrem de forma automatica el numero de CUPS, s'utilitza una variable de configuracio. La variable en questio es `cups_from_seq`.
+## Cuando se calculara
 
 Nomes es calculara en el cas de marcar la opcio de `Auto numeracio` al crear el cups:
 
 ![new_cups]
 
-## Valors
+## Configuracio
 
-### Valor: 0
+Per definir com obtindrem de forma automatica el numero de CUPS, s'utilitza una variable de configuracio. La variable en questio es `cups_from_seq`.
+
+### Valors
+
+#### Valor: 0
 
 En cas d'assignar un `0` a la variable, es buscara el numero de cups mes gran, i s'agafara el seguent.
 
@@ -22,7 +24,7 @@ from giscedata_cups_ps
 where substring(name, 7, 12) similar to '[0-9]+'
 ```
 
-### Valor: 1
+#### Valor: 1
 
 En cas d'assignar un `1` a la variable, s'agafara el valor que ens retorni la sequencia amb codi `Numeració CUPS` (codi intern `giscedata.cups.ps`).
 
