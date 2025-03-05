@@ -18,71 +18,43 @@ Utilitzarem la comanda `scp` per poder enviar tots els zips al servidor:
 
 ```ShellSession
 localhost:~$ scp *.zip {server}:/home/gisce/sips
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_baleares.zip                                                             100%  509MB  59.1MB/s   00:08    
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_canarias.zip                                                             100%  831MB  60.1MB/s   00:13
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                                           100%   18GB  59.4MB/s   05:12    
-202411_SIPS2_CONSUMOS_GAS_nacional.zip                                                                      100% 1191MB  60.5MB/s   00:19    
-202411_SIPS2_PS_ELECTRICIDAD_baleares.zip                                                                   100%   31MB  58.4MB/s   00:00    
-202411_SIPS2_PS_ELECTRICIDAD_canarias.zip                                                                   100%   48MB  59.4MB/s   00:00    
-202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                                 100%  934MB  60.4MB/s   00:15    
-202411_SIPS2_PS_GAS_nacional.zip                                                                            100%  438MB  59.5MB/s   00:07    
+202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
+202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
 ```
 
 Mourem els zips a la maquina de mongo:
 
 ```ShellSession
 localhost:~$ scp *.zip {server}:/home/gisce/sips
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_baleares.zip                                                             100%  509MB  59.1MB/s   00:08    
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_canarias.zip                                                             100%  831MB  60.1MB/s   00:13
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                                           100%   18GB  59.4MB/s   05:12    
-202411_SIPS2_CONSUMOS_GAS_nacional.zip                                                                      100% 1191MB  60.5MB/s   00:19    
-202411_SIPS2_PS_ELECTRICIDAD_baleares.zip                                                                   100%   31MB  58.4MB/s   00:00    
-202411_SIPS2_PS_ELECTRICIDAD_canarias.zip                                                                   100%   48MB  59.4MB/s   00:00    
-202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                                 100%  934MB  60.4MB/s   00:15    
-202411_SIPS2_PS_GAS_nacional.zip                                                                            100%  438MB  59.5MB/s   00:07    
+202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
+202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
 ```
 
-### Executarem un script per poder descomprimir els zips
+## Preparar zips per a la càrrega
 
-Executarem el seguent script desde la carpeta `/home/erp/var/import_sips` que ens descomprimira els zips i encuara la carrega de sips. Quan creem l'script de python, molt important s'ha de configurar les variables URL,DB,USER,PWD.
+Moure els zips a una carpeta temporal on tinguem espai i usarem unzip:
 
-```bash
-#! /bin/bash
-
-mkdir 'splitted'
-mkdir 'splitted/done'
-
-for file in *.zip
-do
-        filename=$(echo $file | rev | cut -f 2- -d '.' | rev)
-        echo "${filename}"
-        zcat $file | split --additional-suffix=.csv -l 1000000 - "splitted/${filename}_splitted"
-done
-
-python queue_sips.py
+```ShellSession
+localhost:~$ unzip 202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
+Archive:  202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
+  inflating: 202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.csv
+localhost:~$ unzip 202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip
+Archive:  202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip
+  inflating: 202502_SIPS2_PS_ELECTRICIDAD_peninsular.csv
 ```
 
-`queue_sips.py`:
+## Executar carrega
 
-```python
-# -*- encoding: utf-8 -*-
-from erppeek import Client
-from os import environ
+### Carrega Punts de Subministrament
 
-from pathlib import Path
+```ShellSession
+./mongoimport -c cnmc_sips --port 27017 --host 192.168.0.6 -d tec --file 202502_SIPS2_PS_ELECTRICIDAD_peninsular.csv --type=csv --upsertFields=cups --columnsHaveTypes --fieldFile=header.csv
+```
 
-server = # url erp
-db = # nom database
-user = # usuari a utilitzar
-password = # password
-folder_path = str(Path().resolve())+'/splitted'
+### Carrega Consums
 
-if not server or not db or not user or not password or not folder_path:
-   raise Exception('Falta alguna variable, URL o DB o USER o PASSWORD o PATH')
-
-c = Client(server, db, user=user, password=password)
-
-c.GiscedataCnmcComerSipsImporter.process_dir(folder_path)
+```ShellSession
+./mongoimport -c cnmc_sips --port 27017 --host 192.168.0.6 -d tec --file 202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.csv --type=csv --upsertFields=cups --columnsHaveTypes --fieldFile=consums.csv
 ```
 
 [zips_en_carpeta]: /gisce/procediments/import_sips/image.png

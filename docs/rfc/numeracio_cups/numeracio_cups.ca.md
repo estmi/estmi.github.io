@@ -1,22 +1,22 @@
-# Numeracio de CUPS
+# Numeració de CUPS
 
-## Quan es calculara
+## Quan es calcularà
 
-Nomes es calculara en el cas de marcar la opcio de `Auto numeracio` al crear el cups:
+Només es calcularà en el cas de marcar l'opció de `Auto numeracio` en crear el cups:
 
 ![new_cups]
 
-## Configuracio
+## Configuració
 
-Per definir com obtindrem de forma automatica el numero de CUPS, s'utilitza una variable de configuracio. La variable en questio es `cups_from_seq`.
+Per definir com obtindrem de forma automàtica el número de CUPS, s'utilitza una variable de configuració. La variable en qüestió és `cups_from_seq`.
 
 ### Valors
 
 #### Valor: 0
 
-En cas d'assignar un `0` a la variable, es buscara el numero de cups mes gran, i s'agafara el seguent.
+En cas d'assignar un `0` a la variable, es buscarà el nombre de cups més gran, i s'agafarà el següent.
 
-S'utilitza la seguent query on agafem nomes la part numerica dels cups per poder obtenir el mes gran i sumar-li 1:
+S'utilitza la següent query on agafem només la part numèrica dels cups per poder obtenir el més gran i sumar-li 1:
 
 ```sql
 select (max(substring(name, 7, 12))::bigint)+1
@@ -26,9 +26,9 @@ where substring(name, 7, 12) similar to '[0-9]+'
 
 #### Valor: 1
 
-En cas d'assignar un `1` a la variable, s'agafara el valor que ens retorni la sequencia amb codi `Numeració CUPS` (codi intern `giscedata.cups.ps`).
+En cas d'assignar un `1` a la variable, s'agafarà el valor que ens retorni la seqüència amb codi `Numeració CUPS` (codi intern `giscedata.cups.ps`).
 
-Aquesta sequencia esta disponible dintre del modul de `giscedata_cups_distri`:
+Aquesta seqüència està disponible dintre del mòdul de `giscedata_cups_distri`:
 
 ![sequencia]
 

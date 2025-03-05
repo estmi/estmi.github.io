@@ -63,7 +63,18 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins:[
+	  [
+		  '@docusaurus/plugin-content-docs',
+      {
+        id: 'clients',
+        path: '../Clients',
+        routeBasePath: 'clients',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+	  ],
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -85,6 +96,12 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Manuals',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'clientsSidebar',
+          position: 'left',
+          label: 'Clients',
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
