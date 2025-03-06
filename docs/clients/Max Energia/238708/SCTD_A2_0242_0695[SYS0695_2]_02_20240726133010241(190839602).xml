@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sctdapplication xmlns="http://localhost/sctd/A202">
+<heading>
+  <dispatchingcode>GML</dispatchingcode>
+  <dispatchingcompany>0242</dispatchingcompany>
+  <destinycompany>0695</destinycompany>
+  <communicationsdate>2024-07-26</communicationsdate>
+  <communicationshour>13:30:10</communicationshour>
+  <processcode>02</processcode>
+  <messagetype>A2</messagetype>
+</heading>
+<a202>
+  <reqcode>0005963037</reqcode>
+  <comreferencenum>240729001280</comreferencenum>
+  <responsedate>2024-07-26</responsedate>
+  <responsehour>13:30:10</responsehour>
+  <result>01</result>
+  <resultdesc>Aceptada</resultdesc>
+  <nationality>ES</nationality>
+  <documenttype>01</documenttype>
+  <documentnum>H33284621</documentnum>
+  <cups>ES0229010010189594RE</cups>
+  <tolltype>R4</tolltype>
+  <outgoingpressuregranted>0.400</outgoingpressuregranted>
+  <singlenomination>N</singlenomination>
+  <netsituation>D16</netsituation>
+  <newmodeffectdate>04</newmodeffectdate>
+  <foreseentransferdate>2024-07-28</foreseentransferdate>
+  <StatusPS>1</StatusPS>
+</a202>
+</sctdapplication>

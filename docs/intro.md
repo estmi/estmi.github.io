@@ -1,3 +1,0 @@
-# Manuals
-
-by Esteve Miquel

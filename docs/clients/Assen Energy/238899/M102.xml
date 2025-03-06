@@ -1,0 +1,35 @@
+<MensajeAceptacionModificacionDeATR xmlns="http://localhost/elegibilidad">
+    <Cabecera>
+        <CodigoREEEmpresaEmisora>0024</CodigoREEEmpresaEmisora>
+        <CodigoREEEmpresaDestino>1810</CodigoREEEmpresaDestino>
+        <CodigoDelProceso>M1</CodigoDelProceso>
+        <CodigoDePaso>02</CodigoDePaso>
+        <CodigoDeSolicitud>202408020602</CodigoDeSolicitud>
+        <SecuencialDeSolicitud>01</SecuencialDeSolicitud>
+        <FechaSolicitud>2024-08-02T13:24:00</FechaSolicitud>
+        <CUPS>ES0031405465007002CX0F</CUPS>
+    </Cabecera>
+    <AceptacionModificacionDeATR>
+        <DatosAceptacion>
+            <FechaAceptacion>2024-08-02</FechaAceptacion>
+            <ActuacionCampo>N</ActuacionCampo>
+            <BonoSocial>0</BonoSocial>
+        </DatosAceptacion>
+        <Contrato>
+            <TipoContratoATR>01</TipoContratoATR>
+            <CondicionesContractuales>
+                <TarifaATR>019</TarifaATR>
+                <PotenciasContratadas>
+                    <Potencia Periodo="1">5000</Potencia>
+                    <Potencia Periodo="2">6000</Potencia>
+                    <Potencia Periodo="3">6000</Potencia>
+                    <Potencia Periodo="4">6000</Potencia>
+                    <Potencia Periodo="5">6000</Potencia>
+                    <Potencia Periodo="6">15100</Potencia>
+                </PotenciasContratadas>
+            </CondicionesContractuales>
+            <TipoActivacionPrevista>L0</TipoActivacionPrevista>
+            <FechaActivacionPrevista>2024-07-01</FechaActivacionPrevista>
+        </Contrato>
+    </AceptacionModificacionDeATR>
+</MensajeAceptacionModificacionDeATR>

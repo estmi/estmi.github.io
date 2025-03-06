@@ -1,0 +1,13 @@
+# Contractes
+
+|ID|N Contracte|Motiu|Data Comunicada|Data Renovacio|
+|---|---|---|---|---|
+| 54 |00010| Llista de preus assignada sense dades de renovacio [^1] | Null | Null |
+| 149 |00116| S'enviara el correu el dia 21-12-2025, perque a dia 20-01-2025 es va fer una modificacio contractual que canviava la llista de preus i aquesta nova posava la renovacio a un any vista. | Null | 20-01-2026 |
+| 150 |00117| S'enviara el correu el dia 21-12-2025, perque a dia 20-01-2025 es va fer una modificacio contractual que canviava la llista de preus i aquesta nova posava la renovacio a un any vista. | Null | 20-01-2026 |
+| 154 |00122| Llista de preus assignada te llista de preus de renovacio pero no te ni dies ni mesos [^2] | Null | Null |
+
+[^1] Llista de preus contracte 00010:\
+![alt text](image.png)
+[^2] Llista de preus contracte 00122:\
+![alt text](image-1.png)

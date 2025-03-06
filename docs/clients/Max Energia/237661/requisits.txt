@@ -1,0 +1,10 @@
+
+Contrato (Done)
+Lista de precios (Done)
+--
+FEE (get_polissa_co)
+FEE2
+% reparto al canal FEE2	
+CO
+--
+categ_indx (Done)

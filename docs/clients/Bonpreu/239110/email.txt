@@ -1,0 +1,9 @@
+Bon dia, Mercè,
+
+El que hem trobat ha sigut que s'han eliminat manualment les línies de descomptes corresponents a descomptes aplicats a factures del contracte. Per altra banda, calia recalcular els descomptes d'aquesta bateria virtual a partir de la data 01/08/2021 (anteriorment era 01/08/2022) però veiem que es va canviar, així que hem calculat els descomptes a partir de 01/08/2021.
+
+Com procedir:
+
+Entrar a les factures des de 01/08/2021 fins a l'actualitat i crear una línia de descompte reflectint cada línia extra de descompte de bateria virtual trobades a les factures. La data del dia descompte calculat de cada línia de descompte, ha de ser la data de factura corresponent. Si la factura és anul·ladora, l'import de la línia de descompte ha de ser positiu, en canvi, si és una factura normal o rectificadora, ha de ser un import negatiu.
+
+Les línies que crearàs són les línies que s'han eliminat a mà i que no es poden recalcular automàticament.

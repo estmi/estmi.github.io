@@ -18,16 +18,16 @@ Utilitzarem la comanda `scp` per poder enviar tots els zips al servidor:
 
 ```ShellSession
 localhost:~$ scp *.zip {server}:/home/gisce/sips
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
-202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
+202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
+202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
 ```
 
 Mourem els zips a la maquina de mongo:
 
 ```ShellSession
 localhost:~$ scp *.zip {server}:/home/gisce/sips
-202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
-202411_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
+202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip                                            100%   18GB  59.4MB/s   05:12
+202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip                                                  100%  934MB  60.4MB/s   00:15
 ```
 
 ## Preparar zips per a la càrrega
@@ -35,9 +35,9 @@ localhost:~$ scp *.zip {server}:/home/gisce/sips
 Moure els zips a una carpeta temporal on tinguem espai i usarem unzip:
 
 ```ShellSession
-localhost:~$ unzip 202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
-Archive:  202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
-  inflating: 202411_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.csv
+localhost:~$ unzip 202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
+Archive:  202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.zip
+  inflating: 202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.csv
 localhost:~$ unzip 202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip
 Archive:  202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip
   inflating: 202502_SIPS2_PS_ELECTRICIDAD_peninsular.csv

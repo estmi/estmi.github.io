@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sctdapplication xmlns="http://localhost/sctd/A302">
+<heading>
+  <dispatchingcode>GML</dispatchingcode>
+  <dispatchingcompany>0242</dispatchingcompany>
+  <destinycompany>0695</destinycompany>
+  <communicationsdate>2024-07-28</communicationsdate>
+  <communicationshour>07:00:08</communicationshour>
+  <processcode>02</processcode>
+  <messagetype>A3</messagetype>
+</heading>
+<a302>
+  <reqcode>0005963037</reqcode>
+  <comreferencenum>240729001280</comreferencenum>
+  <responsedate>2024-07-28</responsedate>
+  <responsehour>07:00:08</responsehour>
+  <nationality>ES</nationality>
+  <documenttype>01</documenttype>
+  <documentnum>H33284621</documentnum>
+  <cups>ES0229010010189594RE</cups>
+  <lastinspectionsdate>2021-06-29</lastinspectionsdate>
+  <lastinspectionsresult>02</lastinspectionsresult>
+  <atrcode>ES0229010010189594RE0004</atrcode>
+  <transfereffectivedate>2024-07-28</transfereffectivedate>
+  <telemetering>N</telemetering>
+  <finalclientyearlyconsumption>295628</finalclientyearlyconsumption>
+  <readingtype>0</readingtype>
+  <gasusetype>02</gasusetype>
+  <StatusPS>1</StatusPS>
+  <tolltype>R4</tolltype>
+  <factmethod>2</factmethod>
+  <counterlist>
+    <counter>
+      <countermodel>ACTARIS</countermodel>
+      <countertype>01</countertype>
+      <counternumber>000000000005121152</counternumber>
+      <counterproperty>02</counterproperty>
+      <reallecture>509123</reallecture>
+      <counterpressure>0.02</counterpressure>
+    </counter>
+  </counterlist>
+</a302>
+</sctdapplication>

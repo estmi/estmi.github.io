@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<form string="Generar Cas amb Modificacio Contractual" col="2">
+                    <field name="state" invisible="1"/>
+                    <field name="proces" invisible="1"/>
+                    <field name="contract" invisible="1"/>
+                    <notebook>
+                    <page string="Generación Caso" attrs="{'invisible':[('state','!=','init')]}">
+                        <group col="4" colspan="4" attrs="{'invisible':[('state','!=','init')]}">
+                            <field name="change_atr" on_change="onchange_type(change_atr, change_adm, contract, generate_new_contract, new_contract, proces)"/>
+                            <field name="change_adm" on_change="onchange_type(change_atr, change_adm, contract, generate_new_contract, new_contract, proces)"/>
+                        </group>
+                        <group col="2" colspan="4" attrs="{'invisible':[('state','!=','init')]}">
+                            <field name="cups" readonly="1"/>
+                            <field name="cnae"/>
+                        </group>
+                            <group attrs="{'invisible': [('change_adm','!=', True)]}" colspan="4">
+                                    <separator string="Contracte Nou" colspan="4"/>
+                                    <field name="generate_new_contract" on_change="onchange_new_contact(contract, generate_new_contract, new_contract, proces)"/>
+                                    <group attrs="{'invisible': [('generate_new_contract','=', 'create')]}">
+                                        <field name="new_contract" on_change="onchange_new_contact(contract, generate_new_contract, new_contract, proces)" domain="[('cups.name', '=', cups), ('state', '=', 'esborrany')]" attrs="{'required': [('generate_new_contract', '=', 'exists'), ('owner_change_type','in', ('T', 'S')), ('change_adm','=', True),('proces','=','M1')]}"/>
+                                </group>
+                            </group>
+                        <notebook colspan="4">
+                            <page string="Tarifa" attrs="{'invisible': [('change_atr', '!=', True)]}">
+                                <group colspan="2" col="4" attrs="{'invisible': [('change_atr', '!=', True)]}">
+                                    <group colspan="2" col="2">
+                                        <separator string="Tarifa" colspan="2"/>
+                                        <field name="tariff" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True)]}"/>
+                                        <field name="canvi_control_potencia"/>
+                                        <group colspan="2" col="2" attrs="{'invisible': [('canvi_control_potencia','=',False)]}">
+                                            <field name="power_invoicing" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True)]}"/>
+                                        </group>
+                                    </group>
+                                    <group colspan="2" col="2">
+                                        <separator string="Potències [W]" colspan="2"/>
+                                        <group colspan="2" col="2">
+                                            <!-- Power -->
+                                            <group colspan="2" col="4" attrs="{'invisible': [('tariff', '=', False)]}">
+                                                <field name="power_p1" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True)]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p1, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p1', 'unit': 'W'}"/>
+                                            </group>
+                                            <group colspan="2" col="4" attrs="{'invisible': [('tariff', 'not in',('003', '011', '012', '013', '014', '015', '016', '017', '018', '019', '020', '021', '022', '023', '024', '025'))]}">
+                                                <field name="power_p2" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True),('tariff', 'in',('003', '011', '012', '013', '014', '015', '016', '017', '018', '019', '020', '021', '022', '023', '024', '025'))]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p2, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p2', 'unit': 'W'}"/>
+                                            </group>
+                                            <group colspan="2" col="4" attrs="{'invisible': [('tariff', 'not in',('003', '011', '012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}">
+                                                <field name="power_p3" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True),('tariff', 'in',('003', '011', '012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p3, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p3', 'unit': 'W'}"/>
+                                            </group>
+                                            <group colspan="2" col="4" attrs="{'invisible': [('tariff', 'not in',('012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}">
+                                                <field name="power_p4" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True),('tariff', 'in',('012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p4, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p4', 'unit': 'W'}"/>
+                                                <field name="power_p5" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True),('tariff', 'in',('012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p5, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p5', 'unit': 'W'}"/>
+                                                <field name="power_p6" width="280" on_change="onchange_atr(tariff, power_p1, power_p2, power_p3, power_p4, power_p5, power_p6, power_invoicing, contract, change_retail_tariff, retail_tariff, context)" attrs="{'required': [('change_atr','=',True),('tariff', 'in',('012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}"/>
+                                                <button name="701" type="action" string="Normalitzar" context="{'power': power_p6, 'tarifa_code': tariff, 'polissa_id': context['pol_id'], 'model': 'giscedata.switching.mod.con.wizard', 'field': 'power_p6', 'unit': 'W'}"/>
+                                            </group>
+                                            <!-- Empty strings to use up space compensating for the missing powers in each case. We only show them if we don't show the administration changes -->
+                                            <group col="1" colspan="2" attrs="{'invisible': [('change_adm','=',True)]}">
+                                                <group colspan="2" col="1" attrs="{'invisible': [('tariff', '!=', False)]}">
+                                                    <label string=" "/>
+                                                </group>
+                                                <group colspan="2" col="1" attrs="{'invisible': [('tariff', 'in',('003', '011', '012', '013', '014', '015', '016', '017', '018','019', '020', '021', '022', '023', '024', '025'))]}">
+                                                    <label string=" "/>
+                                                    <label string=" "/>
+                                                    <label string=" "/>
+                                                </group>
+                                                <group colspan="2" col="1" attrs="{'invisible': [('tariff', 'in',('012', '013', '014', '015', '016', '017', '019', '020', '021', '022', '023', '024', '025'))]}">
+                                                    <label string=" "/>
+                                                    <label string=" "/>
+                                                    <label string=" "/>
+                                                    <label string=" "/>
+                                                </group>
+                                            </group>
+                                        </group>
+                                    </group>
+                                </group>
+                            </page>
+                            <page string="Altres dades tècniques">
+                                <group colspan="2" col="2">
+                                    <separator string="Solicitud de Tensió" colspan="2"/>
+                                    <field name="solicitud_tensio"/>
+                                </group>
+                                <group colspan="2" col="2">
+                                    <separator string="Autoconsum associat" colspan="2"/>
+                                    <group colspan="2" col="10">
+                                        <field name="mod_autoconsum" colspan="2" on_change="onchange_mod_autoconsum(mod_autoconsum, cups)"/>
+                                        <field name="autoconsum" nolabel="1" attrs="{'readonly':[('mod_autoconsum','=',False)]}" colspan="8"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page string="Titular" attrs="{'invisible': [('change_adm', '!=', True)]}">
+                                <group col="4" colspan="4" attrs="{'invisible': [('change_adm', '!=', True)]}">
+                                    <separator string="Titular" colspan="4"/>
+                                    <field name="owner_change_type" attrs="{'required': [('change_adm','=',True)]}"/>
+                                    <field name="vat" on_change="onchange_vat(vat, contract, owner, contact)" attrs="{'required': [('change_adm','=',True)]}"/>
+                                    <field name="vat_kind" attrs="{'required': [('change_adm','=',True)]}"/>
+                                    <field name="owner" on_change="onchange_owner(owner, owner_pre, contact, vat, contract)" attrs="{'required': [('change_adm','=',True)]}"/>
+                                    <field name="owner_pre" invisible="1"/>
+                                </group>
+                            </page>
+                            <page string="Contacte">
+                                <group col="9" colspan="4">
+                                    <separator string="Contacte" colspan="8"/>
+                                    <field name="contact" on_change="onchange_contact(contact)" colspan="4"/>
+                                    <field name="direccio_notificacio" colspan="4" domain="[('partner_id', '=', contact)]" on_change="onchange_contact_dir(direccio_notificacio, contact)"/>
+                                    <field name="con_type" colspan="2"/>
+                                    <field name="con_name" colspan="6" required="1"/>
+                                    <field name="con_sur1" colspan="4" attrs="{'readonly':[('con_type','=','J')], 'required':[('con_type','=','F')]}"/>
+                                    <field name="con_sur2" colspan="4" attrs="{'readonly':[('con_type','=','J')]}"/>
+                                    <field name="phone_pre" colspan="2" required="1"/>
+                                    <field name="phone_num" colspan="6" required="1"/>
+                                </group>
+                            </page>
+                            <page string="Dades Fiscals" attrs="{'invisible': [('change_adm', '!=', True)]}">
+                                <group col="4" colspan="4" attrs="{'invisible': [('change_adm', '!=', True)]}">
+                                    <separator string="Dades Fiscals" colspan="4"/>
+                                    <field name="pagador" on_change="onchange_pagador(pagador)"/>
+                                    <field name="direccio_pagament" colspan="4" domain="[('partner_id', '=', pagador)]" on_change="onchange_fiscal_dir(direccio_pagament, pagador)"/>
+                                    <separator string="Pagament" colspan="4"/>
+                                    <field name="tipo_pago" colspan="1" invisible="1"/>
+                                    <field name="bank" colspan="1" attrs="{'readonly': [('tipo_pago.code', '=', 'RECIBO_CSB')]}" domain="[('partner_id', '=', pagador)]"/>
+                                    <field name="payment_mode_id" colspan="2" on_change="onchange_payment_mode(payment_mode_id)"/>
+                                </group>
+                            </page>
+                            <page string="Lectures" attrs="{'invisible': [('check_introduir_lectures', '!=', True)]}">
+                                <group col="4" colspan="4">
+                                    <field name="num_periods" invisible="1"/>
+                                    <separator string="Lectures d'Activació" colspan="4"/>
+                                    <field name="measure_date" on_change="onchange_measure_date(measure_date, contract)"/>
+                                    <group colspan="4">
+                                        <group col="5" colspan="4">
+                                            <group colspan="1">
+                                                <field string="Activa" name="send_ae_measures"/>
+                                            </group>
+                                            <group colspan="1">
+                                                <field string="Reactiva" name="send_r1_measures"/>
+                                            </group>
+                                            <group colspan="1">
+                                                <field string="Maxímetre" name="send_pm_measures"/>
+                                            </group>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field string="Excés" name="send_ep_measures"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4">
+                                            <field name="measure_ae_p1" string="Lectura P1"/>
+                                            <field name="measure_r1_p1" nolabel="1"/>
+                                            <field name="measure_pm_p1" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p1" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4" attrs="{'invisible': [('num_periods', '&lt;', 2)]}">
+                                            <field name="measure_ae_p2" string="Lectura P2"/>
+                                            <field name="measure_r1_p2" nolabel="1"/>
+                                            <field name="measure_pm_p2" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p2" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4" attrs="{'invisible': [('num_periods', '&lt;', 3)]}">
+                                            <field name="measure_ae_p3" string="Lectura P3"/>
+                                            <field name="measure_r1_p3" nolabel="1"/>
+                                            <field name="measure_pm_p3" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p3" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4" attrs="{'invisible': [('num_periods', '&lt;', 4)]}">
+                                            <field name="measure_ae_p4" string="Lectura P4"/>
+                                            <field name="measure_r1_p4" nolabel="1"/>
+                                            <field name="measure_pm_p4" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p4" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4" attrs="{'invisible': [('num_periods', '&lt;', 5)]}">
+                                            <field name="measure_ae_p5" string="Lectura P5"/>
+                                            <field name="measure_r1_p5" nolabel="1"/>
+                                            <field name="measure_pm_p5" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p5" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                        <group col="5" colspan="4" attrs="{'invisible': [('num_periods', '&lt;', 6)]}">
+                                            <field name="measure_ae_p6" string="Lectura P6"/>
+                                            <field name="measure_r1_p6" nolabel="1"/>
+                                            <field name="measure_pm_p6" nolabel="1"/>
+                                            <group attrs="{'invisible': [('num_periods', '&lt;', '6')]}">
+                                                <field name="measure_ep_p6" nolabel="1"/>
+                                            </group>
+                                        </group>
+                                    </group>
+                                </group>
+                            </page>
+                        </notebook>
+                        <group col="2" colspan="4">
+                            <group colspan="4" col="4">
+                                <separator string="Tarifa Comercialitzadora" colspan="4"/>
+                                <field name="change_retail_tariff" on_change="onchange_change_retail_tariff(change_retail_tariff, tariff, context)"/>
+                                <field name="retail_tariff" nolabel="1" attrs="{'readonly': [('change_retail_tariff', '=', False)],  'required': [('change_retail_tariff', '=', True)]}" on_change="onchange_check_retail_tariff(change_retail_tariff, retail_tariff, context)"/>
+                                <field name="mode_facturacio" required="1" colspan="4"/>
+                            </group>
+                            <separator string="Activació" colspan="2"/>
+                            <field name="activacio_cicle" colspan="2"/>
+                            <newline/>
+                            <group attrs="{'invisible': [('activacio_cicle','!=','F')]}" colspan="2">
+                                <field name="data_accio" attrs="{'required':[('activacio_cicle','=','F')]}"/>
+                            </group>
+                            <newline/>
+                            <group colspan="4" col="1" attrs="{'invisible':[('proces','!=','M1')]}">
+                                <group col="4" colspan="4" attrs="{'invisible': [('change_adm', '!=', True)]}">
+                                    <field name="check_introduir_lectures" colspan="4"/>
+                                </group>
+                            </group>
+                            <separator string="Comentari" colspan="2"/>
+                            <group colspan="2" col="2">
+                                <field nolabel="1" colspan="2" name="comments" height="30" size="120"/>
+                            </group>
+                            <group colspan="2" col="1" attrs="{'invisible':[('proces','!=','C2')]}">
+                                <button name="genera_casos_atr" string="C2 - Canvi de comercialitzadora amb canvis" type="object" icon="gtk-execute" attrs="{'readonly': [('change_adm','=',False),('change_atr','=',False)]}"/>
+                            </group>
+                            <group colspan="2" attrs="{'invisible': [('proces','!=','M1')]}">
+                                <label/>
+                                <button name="genera_casos_atr" string="M1 - Modificació contractual" type="object" icon="gtk-execute" attrs="{'readonly': [('change_adm','=',False),('change_atr','=',False)]}"/>
+                                <field name="skip_validations"/>
+                                <label/>
+                            </group>
+                            <group colspan="2">
+                                <label/>
+                                <button string="Cancel·lar" special="cancel" icon="gtk-close" colspan="2"/>
+                                <label/>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Altres" attrs="{'invisible':[('state','!=','init')]}">
+                        <group col="2" attrs="{'invisible': [('proces','not in',('C2','M1'))]}">
+                            <group colspan="1" col="2">
+                                <separator colspan="4" string="Documentació Adjunta"/>
+                                <group colspan="4">
+                                        <field name="doc_add"/>
+                                </group>
+                                <group colspan="2" attrs="{'invisible': [('doc_add','!=',True)]}">
+                                    <field name="docs_ids" nolabel="1" colspan="4" height="320"/>
+                                </group>
+                            </group>
+                            <group colspan="1" attrs="{'invisible': [('change_atr','!=',True)]}" col="2">
+                                <separator colspan="2" string="Documentació Tècnica"/>
+                                <group colspan="2" col="2">
+                                    <field name="dt_add" colspan="2"/>
+                                </group>
+
+                                <group attrs="{'invisible': [('dt_add','!=',True)]}" colspan="2" col="2">
+                                    <field name="dt_cie_electronico" colspan="4"/>
+
+
+                                    <field name="dt_cie_codigo" attrs="{'required':[('dt_add','=',True)]}" colspan="4"/>
+                                    <group attrs="{'invisible':[('dt_cie_electronico','=','S')]}" colspan="2" col="2">
+                                        <separator string="CiePapel" colspan="4"/>
+                                        <field name="dt_cie_papel_potenciainstbt" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+                                        <field name="dt_cie_papel_data_emissio" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+                                        <field name="dt_cie_papel_data_caducitat" colspan="4"/>
+                                        <field name="dt_cie_papel_tipus_suministre" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+                                        <separator string="Instal·lador" colspan="4"/>
+
+                                        <field name="dt_tipus_codi_instalador" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+                                        <field name="dt_codi_instalador" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+
+                                        <field name="dt_cie_papel_tensio_suministre" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','N')]}" colspan="4"/>
+                                    </group>
+                                    <group attrs="{'invisible':[('dt_cie_electronico','=','N')]}" colspan="2" col="2">
+                                        <separator string="CieElectrónico" colspan="4"/>
+                                        <field name="dt_cie_sello_elec" attrs="{'required':[('dt_add','=',True),('dt_cie_electronico','=','S')]}" colspan="4"/>
+                                    </group>
+
+                                </group>
+                            </group>
+                            <separator colspan="4"/>
+                        </group>
+                    </page>
+
+                    <page string="Resultado" attrs="{'invisible':[('state','!=','end')]}">
+                        <group colspan="4" col="1">
+                            <field nolabel="1" name="info" height="360" width="640" readonly="1"/>
+                            <button name="action_casos" string="Obrir Casos Generats" type="object" icon="gtk-execute"/>
+                            <button special="cancel" string="Finalitzar" icon="gtk-close"/>
+                            <button type="object" string="Imprimir Solicitud" name="print_report" icon="gtk-print"/>
+                        </group>
+                    </page>
+                    </notebook>
+                </form>
+            
