@@ -63,18 +63,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-//  plugins:[
-//	  [
-//		  '@docusaurus/plugin-content-docs',
-//      {
-//        id: 'clients',
-//        path: '../Clients',
-//        routeBasePath: 'clients',
-//        sidebarPath: './sidebars.ts',
-//        // ... other options
-//      },
-//	  ],
-//  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -103,12 +91,12 @@ const config: Config = {
           position: 'left',
           label: 'RFC',
         },
-        //{
-        //  type: 'docSidebar',
-        //  sidebarId: 'clientsSidebar',
-       //   position: 'left',
-       //   label: 'Clients',
-       // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'clientsSidebar',
+          position: 'left',
+          label: 'Clients',
+        },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/estmi/estmi.github.io',
