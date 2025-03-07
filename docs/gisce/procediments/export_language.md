@@ -1,10 +1,5 @@
 # Export Language
 
-- [Ubicacio assistent](#ubicacio-assistent)
-- [Vista inicial assistent](#vista-inicial-assistent)
-- [Opcions de l'assistent](#opcions-de-lassistent)
-  - [Us en cas d'exportacio POT per a Transifex](#us-en-cas-dexportacio-pot-per-a-transifex)
-
 ## Ubicacio assistent
 
 Primerament, seguirem aquests 3 passos per obrir l'assistent des del menu:
