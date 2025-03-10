@@ -40,13 +40,15 @@ ORDER BY
 ```sql
 select 
     name
-    , coalesce("end", current_timestamp)-start as time
-    , num_jobs
-    , (coalesce("end", current_timestamp)-start)/num_jobs as timeXjob
+    , sum(coalesce("end", current_timestamp)-start) as time
+    , sum(num_jobs)
+    , avg((coalesce("end", current_timestamp)-start)/num_jobs) as timeXjob
 from oorq_jobs_group
 where 
-    name ilike '%Validar%2024' 
-    or name ilike '%Validar%2025' 
+    name ilike '%Validar%2024'
+    or name ilike '%Validar%2025'
+GROUP BY 
+    name
 ORDER BY 
     TO_DATE(SUBSTRING(name FROM '(\d{2}/\d{4})'), 'MM/YYYY') DESC;
 ```
