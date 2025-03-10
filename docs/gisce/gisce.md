@@ -1,3 +1,0 @@
-# Gisce
-
-by Esteve Miquel

@@ -1,5 +1,7 @@
 # Numeració de CUPS
 
+[Articulo en castellano](numeracio_cups.es.md)
+
 ## Quan es calcularà
 
 Només es calcularà en el cas de marcar l'opció de `Auto numeracio` en crear el cups:

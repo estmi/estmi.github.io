@@ -1,5 +1,7 @@
 # Numeración de CUPS
 
+[Article en català](numeracio_cups.ca.md)
+
 ## Cuando se calcularà
 
 Solo se calculara en el caso de marcar la opcion de `Auto numeracion` al crear un cups nuevo:

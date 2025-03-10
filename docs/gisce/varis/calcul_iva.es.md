@@ -9,3 +9,7 @@ Podemos encontrarnos con una excepción del 10% solo en los casos que cumplan es
 - Contratos con tarifa de acceso 2.0TD
 - Potencia contratada \<= 10 kW
 - Precio medio de la energía del mes anterior a la fecha final del periodo facturado sea superior a 45 €/MWh
+
+## 2025
+
+El año 2025 el IVA de la energía es del 21%.

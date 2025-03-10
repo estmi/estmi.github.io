@@ -20,7 +20,11 @@ from erppeek import Client
 ## Create Connection
 
 ```python
-c = Client('http://localhost:18069', 'enercol', '***user***', '***pwd***')
+def connection():
+    from erppeek import Client
+    c = Client('http://localhost:18069', 'montoliu_comer','gisce')
+    return c
+c = connection()
 ```
 
 ## Usage

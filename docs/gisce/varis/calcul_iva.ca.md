@@ -1,4 +1,4 @@
-# Calcul IVA factura energia
+# Calcul de l'IVA de les factures d'energia
 
 ## 2024
 
@@ -9,3 +9,7 @@ Podrem trobar una excepció del 10% només en els casos que compleixin el següe
 - Contractes amb tarifa d'accés 2.0TD
 - Potència contractada \<= 10 kW
 - Preu mig de l'energia a mes anterior a data final del període facturat superior a 45 €/MWh
+
+## 2025
+
+L'any 2025 l'IVA de l'energia és del 21%.
