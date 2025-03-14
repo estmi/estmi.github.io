@@ -38,3 +38,6 @@
 		display: none;
 	}
 }
+code {
+  white-space: pre-wrap;
+}

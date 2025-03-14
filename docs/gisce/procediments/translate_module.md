@@ -38,6 +38,12 @@ Tambe es pot consultar l'[rfc transifex]
 
 ## Transifex
 
+:::note Transifex client Install
+```ShellSession
+pip install https://github.com/gisce/transifex-client/archive/master.zip
+```
+:::
+
 Per a poder fer la traducció utilitzarem un servei anomenat Transifex i aquests son els passos:
 
 - Situarem el `.pot` descarregat a la carpeta `$module_name$/i18n` del modul indicat\
