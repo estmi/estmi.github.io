@@ -60,6 +60,8 @@
 
 ### Darrers P1D mes antics de 1 dia
 
+![alt text](image.png)
+
 - Model: `giscedata.cups.ps`
 - Domain:
     ```python
@@ -90,6 +92,8 @@
 
 ### Darrers P5D mes antics de 7 dies
 
+![alt text](image-1.png)
+
 - Model: `giscedata.cups.ps`
 - Domain:
     ```python
@@ -118,13 +122,27 @@
 
 ### Last F5D older than 30 day
 
+![alt text](image-2.png)
+
 ### Factures sense CCH disponible (90 dies)
+
+![alt text](image-3.png)
+
+### Factures sense fitxers F5D exportet (90 dies)
+
+![alt text](image-4.png)
 
 ### Factures sense A5D exportet (90 dies)
 
+![alt text](image-5.png)
+
 ### Factures sense B5D exportet (90 dies)
 
+![alt text](image-6.png)
+
 ### Fitxers darrers 7 dies
+
+![alt text](image-7.png)
 
 - Model: `giscedata.cups.ps`
 - Domain:
