@@ -23,5 +23,3 @@ Nos tendremos que poner en contacto con el propietario del generador para poder 
 Bajo la responsabilidad de la propia empresa, se puede desactivar una variable de configuración que importara de forma automática los datos del propietario del generador desde el D1, pero no se tendrá ningún tipo de consentimiento para esto y se tendría que obtener el consentimiento firmando algún documento de protección de datos con el propietario del generador.
 
 En caso de querer desactivar la configuración, nos podéis enviar un SAC solicitando explícitamente que se quieren importar automáticamente estos datos, siempre bajo la responsabilidad del solicitante.
-
-[imatge_activacio_d1_error]: /gisce/clients/gestio_de_d1_amb_dades_que_no_pertanyen_a_la_companyia/error_activacio_d1.png

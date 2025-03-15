@@ -23,9 +23,3 @@ Finalment comprovarem que s'ha afegit al final i guardarem:
 Buscarem a la llista de llistes de preus la que no ens interessa, la seleccionarem i clicarem el buto de desvincular:
 
 ![unlink_pricelist_from_mode_facturacio]
-
-[menu_modes_de_facturacio]: /gisce/clients/manage_mode_facturacio_pricelists/menu_modes_de_facturacio.png
-[add_pricelist_to_mode_facturacio]: /gisce/clients/manage_mode_facturacio_pricelists/add_pricelist_to_mode_facturacio.png
-[search_popup_select_pricelist]: /gisce/clients/manage_mode_facturacio_pricelists/search_popup_select_pricelist.png
-[check_if_pricelist_is_added_and_save]: /gisce/clients/manage_mode_facturacio_pricelists/check_if_pricelist_is_added_and_save.png
-[unlink_pricelist_from_mode_facturacio]: /gisce/clients/manage_mode_facturacio_pricelists/unlink_pricelist_from_mode_facturacio.png

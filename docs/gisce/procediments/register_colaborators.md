@@ -34,9 +34,3 @@ Un cop assignat el nom, confirmarem amb el botó `Ok` i el botó de `Registrar`.
 ## Crear Col·laboradors Fills
 
 En cas de voler fer que un col·laborador depengui d'un altre, en el camp `Padre del colaborador` podem buscar i assignar el col·laborador pare.
-
-[menu]: /gisce/procediments/register_colaborators/menu.png
-[wizard_register_colaborator]: /gisce/procediments/register_colaborators/wizard_register_colaborator.png
-[wizard_register_colaborator_new_button]: /gisce/procediments/register_colaborators/wizard_register_colaborator_new_button.png
-[wizard_register_colaborator_new_colab_name_selected]: /gisce/procediments/register_colaborators/wizard_register_colaborator_new_colab_name_selected.png
-[wizard_register_colaborator_new_colab_name_entered]: /gisce/procediments/register_colaborators/wizard_register_colaborator_new_colab_name_entered.png

@@ -40,6 +40,3 @@ Un cop sigui importat veurem el seguent:\
 
 [Insomnia_deb]: https://docs.insomnia.rest/insomnia/install
 [Insomnia_quixotic_config]: quixotic_config.md
-[Insomnia_import_file]: /gisce/lucera/quixotic/Insomnia_import_file.png
-[Insomnia_import_file_import]: /gisce/lucera/quixotic/Insomnia_import_file_import.png
-[Insomnia_lucera_quixotic_collection_imported]: /gisce/lucera/quixotic/Insomnia_lucera_quixotic_collection_imported.png

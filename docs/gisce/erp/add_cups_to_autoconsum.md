@@ -57,13 +57,3 @@ Un cop haguem especificat un autoconsum, l'assistent verificara que no sigui l'a
 ### Donar de baixa
 
 ![wizard_set_autoconsum_baixa]
-
-[llistat_assistents]: /gisce/erp/add_cups_to_autoconsum/llistat_assistent_cups.png
-[wizard_set_autoconsum]: /gisce/erp/add_cups_to_autoconsum/wizard_set_autoconsum.png
-[wizard_set_autoconsum_alta]: /gisce/erp/add_cups_to_autoconsum/wizard_set_autoconsum_alta.png
-[wizard_set_autoconsum_baixa]: /gisce/erp/add_cups_to_autoconsum/wizard_set_autoconsum_baixa.png
-[menu_wizard_carrega_ccrh]: /gisce/erp/add_cups_to_autoconsum/menu_wizard_carrega_ccrh.png
-[wizard_carrega_ccrh]: /gisce/erp/add_cups_to_autoconsum/wizard_carrega_ccrh.png
-[llistat_assistents_autoconsum]: /gisce/erp/add_cups_to_autoconsum/llistat_assistents_autoconsum.png
-[wizard_generar_cas_atr_autocon]: /gisce/erp/add_cups_to_autoconsum/wizard_generar_cas_atr_autocon.png
-[wizard_generar_cas_atr_autocon_d1]: /gisce/erp/add_cups_to_autoconsum/wizard_generar_cas_atr_autocon_d1.png

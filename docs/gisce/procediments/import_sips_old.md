@@ -56,5 +56,3 @@ Archive:  202502_SIPS2_PS_ELECTRICIDAD_peninsular.zip
 ```ShellSession
 ./mongoimport -c cnmc_sips --port 27017 --host 192.168.0.6 -d tec --file 202502_SIPS2_CONSUMOS_ELECTRICIDAD_peninsular.csv --type=csv --upsertFields=cups --columnsHaveTypes --fieldFile=consums.csv
 ```
-
-[zips_en_carpeta]: /gisce/procediments/import_sips/image.png

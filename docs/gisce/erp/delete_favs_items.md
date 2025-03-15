@@ -9,7 +9,3 @@ Per poder eliminar alguna opcio del llistat de favoritos, anirem desdel client w
 Ens apareixera un llistat a pantalla completa de tots els accessos directes, on seleccionarem el que ens falli i el podrem eliminar:
 
 ![shortcuts_list]
-
-[welcome_page]: /gisce/erp/delete_favs_items/welcome_page.png
-[shortcuts_selector]: /gisce/erp/delete_favs_items/shortcuts_selector.png
-[shortcuts_list]: /gisce/erp/delete_favs_items/shortcuts_list.png

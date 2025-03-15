@@ -79,13 +79,6 @@ En cas de no ser correcte s'haurà de tornar a fer l'M1, corregint els canvis er
 
 La distribuïdora ens envia l'activació que de forma automàtica l'erp ja carregarà i farà el canvi de titular amb tota la informació actualitzada des de distribuïdora.
 
-[wizard_create_atr]: /gisce/clients/canvi_de_titular/wizard_create_atr.png
-[wizard_create_atr_m1]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1.png
-[wizard_create_atr_m1_canvi_titular]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1_canvi_titular.png
-[wizard_create_atr_m1_contacte]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1_contacte.png
-[wizard_create_atr_m1_dades_fiscals]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1_dades_fiscals.png
-[wizard_create_atr_m1_titular]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1_titular.png
-[wizard_create_atr_m1_contracte_nou]: /gisce/clients/canvi_de_titular/wizard_create_atr_m1_contracte_nou.png
 [^generacio_contracte_m1]: [Metode per generar contracte en esborrany](/gisce/code/interest_procedures.md#crear-polissa-en-esborrany-per-canvi-de-titular-m1).
 [^nova_polissa_segons_variable]: Variable amb nom `sw_m1_owner_change_subrogacio_new_contract`.
 [^nom_contacte]: Si posem el tipus Jurídic només hem d'informar el Nom de l'empresa.

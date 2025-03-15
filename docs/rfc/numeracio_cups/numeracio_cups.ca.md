@@ -33,6 +33,3 @@ En cas d'assignar un `1` a la variable, s'agafarà el valor que ens retorni la s
 Aquesta seqüència està disponible dintre del mòdul de `giscedata_cups_distri`:
 
 ![sequencia]
-
-[sequencia]: /rfc/numeracio_cups/sequencia.png
-[new_cups]: /rfc/numeracio_cups/new_cups.png

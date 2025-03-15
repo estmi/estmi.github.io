@@ -17,8 +17,3 @@ Alli le daremos al boton de nuevo banco y rellenaremos todos los datos:
 Una vez asignemos el banco a la cuenta ya podremos remesar la factura:
 
 ![bank_account_right_bank]
-
-[bank_account_wrong_bank]: /gisce/clients/create_bank/bank_account_wrong_bank.png
-[bank_menu_entry]: /gisce/clients/create_bank/bank_menu_entry.png
-[new_bank_page]: /gisce/clients/create_bank/new_bank_page.png
-[bank_account_right_bank]: /gisce/clients/create_bank/bank_account_right_bank.png

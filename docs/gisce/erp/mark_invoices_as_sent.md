@@ -39,5 +39,3 @@ abenergia=*# SELECT enviat FROM giscedata_facturacio_factura WHERE id IN (323567
 abenergia=*# COMMIT;
 COMMIT
 ```
-
-[get_ids]: /gisce/erp/mark_invoice_as_sent/get_ids.png
