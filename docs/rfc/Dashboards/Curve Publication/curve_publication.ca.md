@@ -60,7 +60,7 @@
 
 ### Darrers P1D mes antics de 1 dia
 
-![alt text](image.png)
+![last_p1d_older_than_1_day]
 
 - Model: `giscedata.cups.ps`
 - Domain:
@@ -92,7 +92,7 @@
 
 ### Darrers P5D mes antics de 7 dies
 
-![alt text](image-1.png)
+![last_p5d_older_than_7_days]
 
 - Model: `giscedata.cups.ps`
 - Domain:
@@ -122,27 +122,27 @@
 
 ### Last F5D older than 30 day
 
-![alt text](image-2.png)
+![last_f5d_older_than_30_day]
 
 ### Factures sense CCH disponible (90 dies)
 
-![alt text](image-3.png)
+![inv_without_CCH_available_90_days]
 
 ### Factures sense fitxers F5D exportet (90 dies)
 
-![alt text](image-4.png)
+![inv_without_F5D_exported_90_days]
 
 ### Factures sense A5D exportet (90 dies)
 
-![alt text](image-5.png)
+![inv_without_A5D_exported_90_days]
 
 ### Factures sense B5D exportet (90 dies)
 
-![alt text](image-6.png)
+![inv_without_B5D_exported_90_days]
 
 ### Fitxers darrers 7 dies
 
-![alt text](image-7.png)
+![files_uploaded_last_7_days]
 
 - Model: `giscedata.cups.ps`
 - Domain:
@@ -181,5 +181,3 @@
 
 ### Last F5D
 
-[last_f1_older_than_1_day]: /rfc/dashboards/curve_publication/last_f1_older_than_1_day.png
-[last_mcil_older_than_1_day]: /rfc/dashboards/curve_publication/last_mcil_older_than_1_day.png
