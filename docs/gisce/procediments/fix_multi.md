@@ -58,12 +58,12 @@ En la parte inferior pondremos los consumos para cada periodo, teniendo en cuent
 
 ![fix_multi_out_reactive]
 
-[filtro_perfiles]:/gisce/procediments/fix_multi/filtro_perfiles.png
-[perfiles_validar_wizard]:/gisce/procediments/fix_multi/perfiles_validar_wizard.png
-[wizard_validate_profiles]:/gisce/procediments/fix_multi/wizard_validate_profiles.png
-[wizard_validate_measures_meter]:/gisce/procediments/fix_multi/wizard_validate_measures_meter.png
-[register_actions_from_meter]:/gisce/procediments/fix_multi/register_actions_from_meter.png
-[fix_multi_action_list]:/gisce/procediments/fix_multi/fix_multi_action_list.png
-[fix_multi_image]:/gisce/procediments/fix_multi/fix_multi_image.png
-[fix_multi_in_reactive]:/gisce/procediments/fix_multi/fix_multi_in_reactive.png
-[fix_multi_out_reactive]:/gisce/procediments/fix_multi/fix_multi_out_reactive.png
+[filtro_perfiles]: /gisce/procediments/fix_multi/filtro_perfiles.png
+[perfiles_validar_wizard]: /gisce/procediments/fix_multi/perfiles_validar_wizard.png
+[wizard_validate_profiles]: /gisce/procediments/fix_multi/wizard_validate_profiles.png
+[wizard_validate_measures_meter]: /gisce/procediments/fix_multi/wizard_validate_measures_meter.png
+[register_actions_from_meter]: /gisce/procediments/fix_multi/register_actions_from_meter.png
+[fix_multi_action_list]: /gisce/procediments/fix_multi/fix_multi_action_list.png
+[fix_multi_image]: /gisce/procediments/fix_multi/fix_multi_image.png
+[fix_multi_in_reactive]: /gisce/procediments/fix_multi/fix_multi_in_reactive.png
+[fix_multi_out_reactive]: /gisce/procediments/fix_multi/fix_multi_out_reactive.png

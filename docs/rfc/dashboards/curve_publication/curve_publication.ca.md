@@ -181,3 +181,13 @@
 
 ### Last F5D
 
+[files_uploaded_last_7_days]: /rfc/dashboards/curve_publication/files_uploaded_last_7_days.png
+[inv_without_A5D_exported_90_days]: /rfc/dashboards/curve_publication/inv_without_A5D_exported_90_days.png
+[inv_without_B5D_exported_90_days]: /rfc/dashboards/curve_publication/inv_without_B5D_exported_90_days.png
+[inv_without_CCH_available_90_days]: /rfc/dashboards/curve_publication/inv_without_CCH_available_90_days.png
+[inv_without_F5D_exported_90_days]: /rfc/dashboards/curve_publication/inv_without_F5D_exported_90_days.png
+[last_f1_older_than_1_day]: /rfc/dashboards/curve_publication/last_f1_older_than_1_day.png
+[last_f5d_older_than_30_day]: /rfc/dashboards/curve_publication/last_f5d_older_than_30_day.png
+[last_mcil_older_than_1_day]: /rfc/dashboards/curve_publication/last_mcil_older_than_1_day.png
+[last_p1d_older_than_1_day]: /rfc/dashboards/curve_publication/last_p1d_older_than_1_day.png
+[last_p5d_older_than_7_days]: /rfc/dashboards/curve_publication/last_p5d_older_than_7_days.png

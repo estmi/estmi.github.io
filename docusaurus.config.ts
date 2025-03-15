@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+const path = require('path');
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -22,7 +23,9 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  plugins: [
+    path.resolve(__dirname, './plugins/auto-image-references.js'),
+  ],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
